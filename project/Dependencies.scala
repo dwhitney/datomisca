@@ -16,7 +16,7 @@ object Dependencies {
   }
 
   object Test {
-    val specs2 = "org.specs2"    %%    "specs2-core"    %    V.specs2 //   %    "test"
+    val specs2 = "org.specs2"    %%    "specs2-core"    %    V.specs2   %    "test"
   }
 
   object IntegrationTest {
