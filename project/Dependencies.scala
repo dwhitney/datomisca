@@ -5,7 +5,7 @@ object Dependencies {
   object V {
     val macroParadise = "2.0.1"
 
-    val datomic       = "0.9.5130"
+    val datomic       = "0.9.5530"
 
     val specs2        = "3.8.6-scalaz-7.1"
     val scalaTest     = "3.0.1"
