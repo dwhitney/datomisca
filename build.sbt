@@ -6,16 +6,16 @@ licenses in ThisBuild += ("Apache-2.0", url("http://www.apache.org/licenses/LICE
 version in ThisBuild := "0.8.0"
 
 
-scalaVersion in ThisBuild := "2.11.8"
+scalaVersion in ThisBuild := "2.12.0"
 
-crossScalaVersions in ThisBuild := Seq("2.11.8")
+crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.0")
 
 scalacOptions in ThisBuild ++= Seq(
     "-deprecation",
     "-encoding", "UTF-8",
     "-feature",
     "-unchecked",
-    "-Xfatal-warnings",
+    //"-Xfatal-warnings",
     "-Xfuture",
     "-Xlint",
     "-Yno-adapted-args",
