@@ -3,12 +3,12 @@ organization in ThisBuild := "com.github.dwhjames"
 
 licenses in ThisBuild += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
 
-version in ThisBuild := "0.7.0"
+version in ThisBuild := "0.8.0"
 
 
-scalaVersion in ThisBuild := "2.11.6"
+scalaVersion in ThisBuild := "2.11.8"
 
-crossScalaVersions in ThisBuild := Seq("2.10.4", "2.11.6")
+crossScalaVersions in ThisBuild := Seq("2.11.8")
 
 scalacOptions in ThisBuild ++= Seq(
     "-deprecation",
@@ -24,10 +24,10 @@ scalacOptions in ThisBuild ++= Seq(
     "-Ywarn-value-discard"
   )
 
-scalacOptions in ThisBuild ++= (
+/*scalacOptions in ThisBuild ++= (
     if (scalaVersion.value.startsWith("2.10")) Nil
     else List("-Ywarn-unused-import")
-  )
+  )*/
 
 
 resolvers in ThisBuild ++= Seq(

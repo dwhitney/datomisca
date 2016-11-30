@@ -7,8 +7,8 @@ object Dependencies {
 
     val datomic       = "0.9.5130"
 
-    val specs2        = "2.3.12"
-    val scalaTest     = "2.2.4"
+    val specs2        = "3.8.6-scalaz-7.1"
+    val scalaTest     = "3.0.1"
   }
 
   object Compile {
@@ -16,7 +16,7 @@ object Dependencies {
   }
 
   object Test {
-    val specs2 = "org.specs2"    %%    "specs2"    %    V.specs2    %    "test"
+    val specs2 = "org.specs2"    %%    "specs2-core"    %    V.specs2 //   %    "test"
   }
 
   object IntegrationTest {
